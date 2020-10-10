@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Dream's Ice Creams">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Dream's Ice Creams</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link href="css/styles.min.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <!-- Top navigation header -->
+      <!-- The "sideburns" are the colors on the edges of the screen -->
+    <div class="sideburn" style="left:0;"></div>
+    <div class="sideburn" style="right:0;"></div>
+
+    <nav class="kynav">
+      <div class="logo">
+      <img src="img/dreamslogo.png" alt="Dream's Ice Cream logo of an ice cream cone" style="height:5rem;margin-bottom:2rem;" />
+      <div class="subtitle">
+        Sweet creams are made of these</div>
+        </div>
+      <div class="container">
+        <div class="row">
+          <div class="column">
+          <ul class="navul">
+            <a href="index.html">
+              <li class="navlink">
+                Home
+              </li>
+            </a>
+            <a href="flavors.html">
+              <li class="navlink">
+                Flavors
+              </li>
+            </a>
+            <a href="contact.html">
+              <li class="navlink">
+                Contact
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- The big salmon colored square for aesthetic -->
+<section class="container herocontainer" >
+  <div class="row row-mobile" style="min-height:400px;">
+    <div class="column herocolumn">
+      <div class="herobgimg" style="background-image:url('img/icecreamspread.png');">
+        <h1 class="tc" id="herotext"  >
+          Pure deliciousness</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <!--  Main body starts here  -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="column tc" style="margin:5rem 0;">
+          <h1 class="tc">We pride ourselves on creating simply amazing treats with 100% purity</h1>
+          <p>Using locally-sourced and organic ingredients to handcraft every dessert in small batches.</p>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row row-padded row-mobile" style="flex-wrap:wrap;">
+      <div class="column column-shelf tc">
+        <img src="img/cow.png" width="64px" class="shelficon" />
+        <p>We only use local and regional ingredients. If we can't find that fancy ingredient from our regional farms, markets, and businesses, we don't use it.</p>
+      </div>
+      <div class="column column-shelf tc">
+        <img src="img/chef.png" width="64px" class="shelficon" />
+        <p>Our "creamistas" are your specialists that cream the ice creams and sorbets from scratch by order.</p>
+      </div>
+      <div class="column column-shelf tc">
+        <img src="img/ice-cream.png" width="64px" class="shelficon" />
+        <p>Pick from our curated mixes, or create your own from our toppings. Ice cream, sorbet, nutty, herbal, sweet, crunchy, fruity, chocolatey; you name it.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <hr>
+
+  <div class="containerlabel">
+    <h1>Daily deals? Heck yes!</h1>
+  </div>
+<!-- Weekly Specials table.
+This is some extended HTML coding because of the assignment requirement to include a table element.
+ Ideally I would make a table from flexbox properties for mobile optimization using flex-direction row and wrap. Instead, to include
+ a table element, I had to resort to using display CSS properties with media queries -->
+  <table class="">
+      <thead>
+      <th>M</th>
+      <th>T</th>
+      <th class="table-desktop">W</th>
+      <th class="table-desktop">R</th>
+      <th class="table-desktop">F</th>
+      <th class="table-desktop">S</th>
+      <th class="table-desktop">S</th>
+    </thead>
+    <tr>
+      <td>Manic<br> Mondays</td>
+      <td>Taco<br> Tuesday</td>
+      <td class="table-desktop">Whimsy<br> Wednesday</td>
+      <td class="table-desktop"><a href="http://www.dictionary.com/browse/thermolabile">Thermolabile</a><br> Thursday</td>
+      <td class="table-desktop">Freimily<br> Friday</td>
+      <td class="table-desktop">Simple<br> Saturday</td>
+      <td class="table-desktop">Satiable<br> Sunday</td>
+    </tr>
+    <tr>
+      <td>Half off 80 calorie sorbets to celebrate the 80's</td>
+      <td>Well, it has nothing to do tacos, but we have amazing ice cream</td>
+      <td class="table-desktop">Our staff-made creme du jour for only 2$</td>
+      <td class="table-desktop">50% off all ice creams, 5-10pm</td>
+      <td class="table-desktop">Bring friends and family for 30% off tubs and buy one get one free 7-8pm.</td>
+      <td class="table-desktop">3$ ice creams. Easy</td>
+      <td class="table-desktop">End your week with half off curated creations</td>
+    </tr>
+  </table>
+
+  <table class="table-mobile">
+      <thead>
+        <th>W</th>
+        <th>R</th>
+    </thead>
+    <tr>
+      <td>Whimsy<br> Wednesday</td>
+      <td><a href="http://www.dictionary.com/browse/thermolabile">Thermolabile</a><br> Thursday</td>
+    </tr>
+    <tr>
+      <td>Our staff-made creme du jour for only 2$</td>
+      <td>50% off all ice creams, 5-10pm</td>
+    </tr>
+  </table>
+
+    <table class="table-mobile" id="sundaymobiletable">
+        <thead>
+        <th>F</th>
+        <th>S</th>
+      </thead>
+      <tr>
+        <td>Freimily<br> Friday</td>
+        <td>Simple<br> Saturday</td>
+      </tr>
+      <tr>
+        <td>Bring friends and family for 30% off tubs and buy one get one free 7-8pm.</td>
+        <td>3$ ice creams. Easy</td>
+      </table>
+      <table class="table-mobile" >
+        <thead >
+          <th class="sundaymobiletable">S</th>
+        </thead>
+        <tr>
+          <td class="sundaymobiletable">Satiable<br> Sunday</td>
+        </tr>
+        <tr>
+          <td class="sundaymobiletable">End your week with half off curated creations</td>
+        </tr>
+        </table>
+
+
+
+<!--<div class="container">
+  <div class="containerlabel">
+    <h1>Daily deals? Heck yes!</h1>
+    </div>
+  <div class="row tc" id="specials">
+    <div class="column ">
+      <table style="width:100%;">
+          <thead>
+          <th>M</th>
+          <th>T</th>
+          <th>W</th>
+          <th>R</th>
+          <th>F</th>
+          <th>S</th>
+          <th>S</th>
+        </thead>
+        <tr>
+          <td>Manic<br> Mondays</td>
+          <td>Taco<br> Tuesday</td>
+          <td>Whimsy<br> Wednesday</td>
+          <td><a href="http://www.dictionary.com/browse/thermolabile">Thermolabile</a><br> Thursday</td>
+          <td>Freimily<br> Friday</td>
+          <td>Simple<br> Saturday</td>
+          <td>Satiable<br> Sunday</td>
+
+            </tr>
+            <tr>
+              <td>Half off 80 calorie sorbets to celebrate the 80's</td>
+              <td>Well, it has nothing to do tacos, but we have amazing ice cream</td>
+              <td>Our staff-made creme du jour for only 2$</td>
+              <td>50% off all ice creams, 5-10pm</td>
+              <td>Bring friends and family for 30% off tubs and buy one get one free 7-8pm.</td>
+              <td>3$ ice creams. Easy</td>
+              <td>End your week with half off curated creations</td>
+
+            </table>
+
+      </div>
+    </div>
+  </div> -->
+
+</main>
+
+<!-- Footer Section -->
+<footer class="">
+  <hr>
+  <div class="container" style="">
+    <div class="row row-mobile row-center tc padded" style="padding-bottom:4rem;">
+      <div class="column">
+        Dream's Ice Cream Shop<br>
+        12345 Adress Rd.<br>
+        Redlands, CA 92373<br>
+
+      </div>
+      <div class="column">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.675245279079!2d-117.18145988444282!3d34.05576378060505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcaa0bf7aff117%3A0x1311c857d32ec826!2s47-1+7th+St%2C+Redlands%2C+CA+92373!5e1!3m2!1sen!2sus!4v1521459243390" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="column">
+        Store hours:<br>
+        Everyday,<br>
+        7am-9pm
+      </div>
+
+    </div>
+  </div>
+  <div class="container" style="padding:0;">
+    <div class="row" style="width:100%;margin:0;">
+      <div class="footercp tc">
+        &copy;Copyright Kyle Fontenot 2018.  For educational purposes only.
+        </div>
+      </div>
+    </div>
+</footer>
+<!-- jQuery CDN script -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script src="script.js" type="text/javascript"></script>
+  </body>
+
+</html>
