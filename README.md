@@ -4,7 +4,7 @@
 ## [Website](https://kylefontenot.github.io/DreamsIceCream/)
 
 
-[![HTML](https://img.shields.io/badge/-HTML-orange)](https://img.shields.io/badge/-SCSS-blueviolet) [![SCSS](https://img.shields.io/badge/-CSS-orange)](https://img.shields.io/badge/-CSS-orange) 
+[![HTML](https://img.shields.io/badge/-HTML-orange)](https://img.shields.io/badge/-SCSS-blueviolet) [![SCSS](https://img.shields.io/badge/-CSS-purple)](https://img.shields.io/badge/-CSS-purple) 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 
