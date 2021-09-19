@@ -1,4 +1,4 @@
-# DreamsIceCream
+# Dream's Ice Cream
 ### "Sweet creams are made of these"
 
 ## [Website](https://kylefontenot.github.io/DreamsIceCream/)
